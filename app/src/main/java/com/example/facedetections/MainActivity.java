@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         ActionBar actionBar=getSupportActionBar();
         assert actionBar != null;
-        actionBar.setTitle("Face Detection App");
+        actionBar.setTitle("Face Detection");
 
         FirebaseApp.initializeApp(this);
 
