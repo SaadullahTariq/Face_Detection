@@ -1,4 +1,4 @@
-package com.futech.facedetections;
+package com.example.facedetections;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.futech.facedetections;
+package com.example.facedetections;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

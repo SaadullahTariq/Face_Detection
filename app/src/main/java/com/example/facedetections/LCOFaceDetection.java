@@ -1,4 +1,4 @@
-package com.futech.facedetections;
+package com.example.facedetections;
 
 import android.app.Application;
 import com.google.firebase.FirebaseApp;

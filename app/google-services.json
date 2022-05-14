@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:444072226017:android:e52726b149cb9701bd9ba0",
         "android_client_info": {
-          "package_name": "com.futech.facedetections"
+          "package_name": "com.example.facedetections"
         }
       },
       "oauth_client": [
