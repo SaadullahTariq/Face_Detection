@@ -22,37 +22,23 @@ public class ResultDialog extends DialogFragment {
                  @Nullable Bundle savedInstanceState)
     {
 
-        // importing View so as to inflate
-        // the layout of our result dialog
-        // using layout inflater.
         View view = inflater.inflate(
                 R.layout.fragement_resultdialog, container,
                 false);
-        String resultText = "";
+        String resultText;
 
-        // finding the elements by their id's.
         okBtn = view.findViewById(R.id.result_ok_button);
         resultTextView
                 = view.findViewById(R.id.result_text_view);
 
-        // To get the result text
-        // after final face detection
-        // and append it to the text view.
         Bundle bundle = getArguments();
+        assert bundle != null;
         resultText = bundle.getString(
                 LCOFaceDetection.RESULT_TEXT);
         resultTextView.setText(resultText);
 
-        // Onclick listener so as
-        // to make a dismissable button
         okBtn.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v)
-                    {
-                        dismiss();
-                    }
-                });
+                v -> dismiss());
         return view;
     }
 }

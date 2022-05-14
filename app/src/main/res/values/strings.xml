@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Face Detection</string>
+    <string name="face_detection">Face Detection</string>
+    <string name="camera">Open Camera</string>
+    <string name="ok">OK</string>
+    <string name="lcofacedetection">LCOFaceDetection</string>
 </resources>

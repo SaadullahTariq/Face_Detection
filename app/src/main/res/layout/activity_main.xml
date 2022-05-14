@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/animationn" />
+        app:lottie_rawRes="@raw/image" />
 
 
     <Button
@@ -30,7 +30,7 @@
         android:layout_marginBottom="68dp"
         android:background="@drawable/button_rounded"
         android:padding="16dp"
-        android:text="Camera"
+        android:text="@string/camera"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
